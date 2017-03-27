@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(version: 20_170_327_132_243) do
 
   create_table 'posts', force: :cascade do |t|
     t.text     'content', null: false
-    t.integer  'like', null: false
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
   end
