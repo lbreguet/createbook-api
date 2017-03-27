@@ -10,7 +10,7 @@ class PostsController < OpenReadController
                Post.all
              end
 
-    render json: @posts
+    render json: @posts.sort
   end
 
   # GET /posts/1
