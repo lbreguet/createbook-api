@@ -2,7 +2,7 @@
 class CommentsController < OpenReadController
   before_action :set_comment, only: [:update, :destroy]
 
-  # GET /comments
+  # GET /posts/post_id/comments
   def index
     post = Post.find(params[:post_id])
 
@@ -16,7 +16,7 @@ class CommentsController < OpenReadController
     render json: Comment.find(params[:id])
   end
 
-  # POST /comments
+  # POST /posts/:post_id/comments
   def create
     post = Post.find(params[:post_id])
 
