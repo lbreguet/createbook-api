@@ -3,7 +3,7 @@
 
 ## ERD
 
-![ERD](https://github.com/lbreguet/createBook/blob/comments/assets/img/erd-createbook.JPG "WireFrame")
+![ERD](https://github.com/lbreguet/createBook/blob/comments/assets/img/erd-createbook.JPG "ERD")
 
 
 ## Routes
